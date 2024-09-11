@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.container {
+    height: 30%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    background-color: black;
+}
+
+.leftNav {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.leftNav img:nth-child(2) {
+    width: 90px;
+}
+
+.centerNav {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.centerNav>input {
+    width: 50%;
+    font-size: 15px;
+    padding: 3px 3px;
+    border: 1px solid rgb(44, 43, 43);
+    background-color: rgb(43, 42, 42);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+
+}
+
+.centerNav>img:nth-child(2) {
+    padding: 3px 7px;
+    background-color: rgb(44, 43, 43);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.centerNav img:nth-child(3) {
+    margin-left: 3px;
+}
+
+.rightNav {
+    display: flex;
+    gap: 5px;
+}
+
+.rightNav img:nth-child(3) {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.showcase {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+
+.showcase h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.showcase p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.showcase button {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(125, 125, 195);
+    border-radius: 20px;
+}
+
+.showcase img {
+    padding: 5px 5px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+h3 {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+h3 span {
+    color: blue;
+}
+
+h4 span {
+    color: blue;
+    font-size: 18px;
+}
+
+.container-2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.show-discription {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px 20px;
+}
+
+.show-discription img {
+    height: 60px;
+    width: 60px;
+}
+
+.show-discription h2 {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.show-discription p {
+    font-size: 15px;
+}
+
+.background-container {
+    height: 100%;
+    /* width: 100%; */
+    color: white;
+}
+
+.bg1 {
+    background-image: url(./img/bg1.jpeg);
+    height: 50%;
+    background-size: cover;
+   
+}
+
+.bg2 {
+    background-image: url(./img/bg2.jpeg); 
+    background-size: cover;
+    height: 50%;
+}
+
+.bg3 {
+    background-image: url(./img/bg3.jpeg);
+    background-size: cover;
+    height: 50%;
+}
+.bg4{
+    background-image: url(./img/bg4.jpeg);
+    background-size: cover;
+    height: 50%;
+}
+ .bg1 >div >h2{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 4px;
+}
+.bg1 >div >p{
+    font-size: 10px;
+} 
+.bg1 >div{
+    padding: 80px 10px 100px 550px ;
+}
+.bg2>div>h2 {
+    font-size: 20px;
+    padding: 4px;
+    font-weight: lighter;
+}
+
+.bg2>div>p {
+    font-size:10px;
+}
+
+.bg2>div {
+    padding: 150px 500px 100px 500px;
+}
+
+.bg3>div>h2 {
+     font-size: 20px;
+    padding: 4px;
+    font-weight: lighter;
+}
+
+.bg3>div>p {
+    font-size: 10px;
+}
+
+.bg3>div {
+    padding: 150px 10px 150px 600px;
+}
+.bg4>div>h2 {
+    font-size: 20px;
+    padding: 4px;
+    font-weight: lighter;
+}
+
+.bg4>div>p {
+    font-size: 10px;
+}
+
+.bg4>div {
+     padding: 150px 10px 150px 500px;
+}
+
+.Faq-detail{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 15px;
+    
+}
+.faq{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width: 50%;
+}
+
+.que{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.help-center{
+margin-top: 30px;
+font-size: 15px;
+}
+.help-center span{
+    color: blue;
+}
